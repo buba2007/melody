@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif
+}
+.header{
+    background-color: #635854;
+    border-bottom: 4px solid #3596F5;
+}
+.navbar{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-item{
+    padding: 14px 40px;
+    transition: 0.3s ease-in-out;
+}
+.navbar-link{
+    text-decoration: none;
+    color: white;
+}
+.navbar-text{
+    display: block;
+    color: white;
+    margin-bottom: 4px;
+    font-size: 90%;
+}
+.navbar-contacts{
+    text-align: end;
+}
+.navbar-phone{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    color: white;
+}
+.navbar-item:hover{
+    background-color: #3596F5;
+    transition: 0.3s ease-in-out;
+}
