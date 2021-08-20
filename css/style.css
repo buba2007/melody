@@ -1,21 +1,25 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
-    font-family: 'Roboto', sans-serif
+
+body {
+    font-family: "Roboto", sans-serif;
 }
-.header{
+
+.header {
     background-color: #635854;
-    border-bottom: 4px solid #3596F5;
+    border-bottom: 4px solid #3596f5;
 }
-.navbar{
+
+.navbar {
     max-width: 1280px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.navbar-menu{
+
+.navbar-menu {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -24,31 +28,103 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.navbar-item{
+
+.navbar-item {
     padding: 14px 40px;
     transition: 0.3s ease-in-out;
 }
-.navbar-link{
+
+.navbar-link {
     text-decoration: none;
     color: white;
 }
-.navbar-text{
+
+.navbar-text {
     display: block;
     color: white;
     margin-bottom: 4px;
     font-size: 90%;
 }
-.navbar-contacts{
+
+.navbar-contacts {
     text-align: end;
 }
-.navbar-phone{
+
+.navbar-phone {
     font-weight: bold;
     font-size: 17px;
     line-height: 20px;
     text-decoration: none;
     color: white;
 }
-.navbar-item:hover{
-    background-color: #3596F5;
+
+.navbar-item:hover {
+    background-color: #3596f5;
     transition: 0.3s ease-in-out;
+}
+
+.main {
+    max-width: 1280px;
+    margin: auto;
+    padding-top: 54px;
+    display: flex;
+}
+
+.main-title {
+    font-size: 27px;
+    line-height: 37px;
+    color: #635854;
+    margin: 0;
+}
+
+.main-info {
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-image path {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.home-image path:hover {
+    opacity: 1;
+}
+
+path.current-floor {
+    opacity: 1;
+}
+
+.counter-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter-button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.counter-arrow-down {
+    transform: rotateX(180deg);
+}
+
+.counter {
+    font-size: 104px;
+    color: #635854;
+    margin: 20px 0;
+}
+
+.button-primary {
+    background-color: #3596f5;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    padding: 16px 36px;
 }
